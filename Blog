@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Blog Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: GhostWhite;
+        }
+        header {
+            background-color: DimGray;
+            color: White;
+            text-align: center;
+            padding: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            background-color: White;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .post h2 {
+            color: DarkSlateGray;
+        }
+        .post p {
+            color: DimGray;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: DimGray;
+            color: White;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Blog</h1>
+    </header>
+    <div class="container">
+        <div class="post">
+            <h2>Blog Post Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus, libero eget vulputate.</p>
+        </div>
+        <div class="post">
+            <h2>Another Blog Post Title</h2>
+            <p>Phasellus consequat enim vel purus dignissim, ac dignissim arcu cursus.</p>
+        </div>
+       
+    </div>
+    <footer>
+        blog blog
+    </footer>
+</body>
+</html>
